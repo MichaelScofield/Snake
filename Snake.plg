@@ -1,0 +1,48 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: Snake - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\LFC\LOCALS~1\Temp\RSP94.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /FR"Debug/" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\Snake\SnakeView.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\LFC\LOCALS~1\Temp\RSP94.tmp" 
+Creating temporary file "C:\DOCUME~1\LFC\LOCALS~1\Temp\RSP95.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:yes /pdb:"Debug/Snake.pdb" /debug /machine:I386 /out:"Debug/Snake.exe" /pdbtype:sept 
+.\Debug\DIB.OBJ
+.\Debug\MainFrm.obj
+.\Debug\Snake.obj
+.\Debug\SnakeClass.obj
+.\Debug\SnakeDoc.obj
+.\Debug\SnakeView.obj
+.\Debug\StdAfx.obj
+.\Debug\Snake.res
+]
+Creating command line "link.exe @C:\DOCUME~1\LFC\LOCALS~1\Temp\RSP95.tmp"
+<h3>Output Window</h3>
+Compiling...
+SnakeView.cpp
+d:\snake\snakeview.cpp(192) : warning C4244: '=' : conversion from 'long' to 'float', possible loss of data
+d:\snake\snakeview.cpp(193) : warning C4244: '=' : conversion from 'long' to 'float', possible loss of data
+d:\snake\snakeview.cpp(195) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+d:\snake\snakeview.cpp(195) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+d:\snake\snakeview.cpp(195) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+d:\snake\snakeview.cpp(195) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+Linking...
+Creating command line "bscmake.exe /nologo /o"Debug/Snake.bsc"  .\Debug\StdAfx.sbr .\Debug\DIB.SBR .\Debug\MainFrm.sbr .\Debug\Snake.sbr .\Debug\SnakeClass.sbr .\Debug\SnakeDoc.sbr .\Debug\SnakeView.sbr"
+Creating browse info file...
+<h3>Output Window</h3>
+
+
+
+<h3>Results</h3>
+Snake.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
